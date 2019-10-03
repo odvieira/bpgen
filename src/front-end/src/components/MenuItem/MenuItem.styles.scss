@@ -1,0 +1,78 @@
+.menu-item {
+    min-width: 30%;
+    height: 240px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00294E;
+    margin: 0 7.5px 15px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome and Opera */
+
+    .background-image {
+      width: 100%;
+      height: 100%;
+      background: center;
+      transform: scale(1);
+      transition: transform 5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+
+    &:hover {
+      cursor: pointer;
+      border: 2px solid #F79964;
+
+      & .content {
+        opacity: 0.8;
+        background: #F79964;
+      }
+
+      & .background-image {
+        transform: scale(1.1);
+        transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
+    }
+  
+    &:first-child {
+      margin-right: 7.5px;
+    }
+  
+    &:last-child {
+      margin-left: 7.5px;
+    }
+  
+    & .content {
+      width: 42%;
+      height: 90px;
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: whitesmoke;
+      opacity: 0.6;
+      position: absolute;
+  
+      .title {
+        font-weight: bolder;
+        margin-bottom: 6px;
+        font-size: 22px;
+        color: #00294E;
+        opacity: 1;
+      }
+  
+      .subtitle {
+        font-weight: normal;
+        font-size: 16px;
+        color: #00294E;
+        opacity: 1;
+      }
+    }
+}

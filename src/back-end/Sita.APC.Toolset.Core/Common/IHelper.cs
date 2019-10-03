@@ -1,0 +1,1 @@
+﻿namespace Sita.APC.Toolset.Core.Common{    public interface IHelper    {        string DateStringToJulianDate(string date);        string GetBarCodeGenericField(string field, int expectedSize);    }}

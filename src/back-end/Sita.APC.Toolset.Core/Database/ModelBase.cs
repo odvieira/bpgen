@@ -1,0 +1,1 @@
+﻿using System;namespace Sita.APC.Toolset.Core.Database{    public abstract class ModelBase : IModelBase    {        //public virtual string Id { get; set; }        public virtual DateTime CreatedAt { get; set; }    }}

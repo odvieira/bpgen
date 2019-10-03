@@ -1,0 +1,13 @@
+.\test\
+.\Sita.APC.Toolset.API\bin\
+.\Sita.APC.Toolset.API\obj\
+.\Sita.APC.Toolset.Core\bin\
+.\Sita.APC.Toolset.Core\obj\
+.\Sita.APC.Toolset.Domain\bin\
+.\Sita.APC.Toolset.Domain\obj\
+.\Sita.APC.Toolset.Repository\bin\
+.\Sita.APC.Toolset.Repository\obj\
+.\Sita.APC.Toolset.Services\bin\
+.\Sita.APC.Toolset.Services\obj\
+.\.vs\
+.\.git\

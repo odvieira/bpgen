@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  background: white;
+  font-family: 'Open Sans';
+
+  .app-content {
+    min-height: 94vh;
+  }
+
+  .app-footer {
+    background-color: whitesmoke;
+    min-height: 6vh;
+  }
+}
+
+.custom-button-blue {
+  background-color: #00294E;
+  color: whitesmoke;
+  border-radius: 0px;
+  border-block: 0px;
+  margin: 5px;
+
+  &:hover {
+    background-color: #F79964;
+    color: #00294E;
+  }
+}

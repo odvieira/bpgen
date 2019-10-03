@@ -1,0 +1,1 @@
+using Sita.APC.Toolset.Core.Database;using System.Threading.Tasks;namespace Sita.APC.Toolset.Core.Repository{    public interface IRepository<T> where T : IModelBase    {        Task Add(T entity);                Task Delete(string id);                Task Delete(T entity);                Task Update(T entity);        Task<T> Find(string Id);    }}

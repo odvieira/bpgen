@@ -1,0 +1,61 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid	lightblue;
+  padding: 10px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  color: whitesmoke;
+  background-color: #00294E;
+
+
+  &:hover {
+    transform: scale(1.05);
+    border: 10px solid	#F79964;
+
+    & .card-detail-block .card-detail-line :last-child {
+      background-color: #F79964;
+    }
+  }
+
+  .card-detail-block {  
+    .card-detail-line {
+      padding: 5px;
+      width: 100%;
+      
+      :first-child {
+        text-align: left;
+      }
+
+      :last-child {
+        text-align: right;
+      }
+    }
+
+    .card-title {
+      font-weight: 200;
+    }
+    
+    .card-desc {
+        font-weight: bold;
+    }
+    
+    .card-barcode {
+      border: 3px solid #00294E;
+
+      &:hover {
+        border: 3px solid #F79964;
+      }
+    }
+
+    .card-details-list {
+      list-style-type: none;
+      margin: 0;  
+      padding: 0;
+      overflow: hidden;
+    }
+  }
+}

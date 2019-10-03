@@ -1,0 +1,43 @@
+.card-list {
+  width: 85vw;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+table {
+  width: 90vw;
+  margin: 0px auto;
+  border-collapse: separate;
+  border-spacing: 0 15px; 
+
+  .thead-row {
+    border: 0px;
+
+    & .header-button {
+      background: white;
+      color: #00294E;
+      border: 0px;
+      font-weight: 600;
+      font-family: 'Open Sans';
+    }
+  }
+
+  & .tr-custom:hover {
+    transform: scale(1.05);
+
+    & :first-child{
+      border-left: 3px solid	#F79964;
+    }
+
+    & :last-child{
+      border-right: 3px solid	#F79964;
+    }
+
+    & td {
+      border-top: 3px solid	#F79964;
+      border-bottom: 3px solid	#F79964;
+    }
+  }
+}

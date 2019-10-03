@@ -1,0 +1,23 @@
+.tr-custom {
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: #00294E;
+
+  td:first-child {
+    border-left: 3px solid lightblue;
+  }
+
+  td:last-child {
+    border-right: 3px solid lightblue;
+  }
+  
+}
+
+td {
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom: 3px solid lightblue;
+  border-top: 3px solid lightblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

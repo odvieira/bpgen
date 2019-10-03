@@ -1,0 +1,23 @@
+.search {
+  -webkit-appearance: none;
+  border: 3px solid #00294E;
+  outline: none;
+  padding: 5px;
+  margin-top: 40px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  color: #00294E;
+  background: white;
+  font-size: 110%;
+}
+
+.search:hover {
+  border: 3px solid #F79964;
+}
+
+.search:focus {
+  border: 3px solid #F79964;
+  opacity: 1;
+  background-color: #00294E;
+  color: whitesmoke;
+}

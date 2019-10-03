@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sita.APC.Toolset.Core\Sita.APC.Toolset.Core.csproj" />
+    <ProjectReference Include="..\Sita.APC.Toolset.Repository\Sita.APC.Toolset.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1 @@
+﻿using Microsoft.Extensions.DependencyInjection;using Sita.APC.Toolset.Core.Common;namespace Sita.APC.Toolset.Core.Middleware{    public static class CoreMiddleware    {        public static void AddCoreDependency(this IServiceCollection services)        {            services.AddSingleton<IHelper, Helper>();        }    }}

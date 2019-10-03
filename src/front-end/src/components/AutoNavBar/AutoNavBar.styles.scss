@@ -1,0 +1,37 @@
+.auto-nav-bar {
+    background-color: whitesmoke;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                            supported by Chrome and Opera */
+
+    & .auto-nav-bar-title {
+        color: #00294E;
+        padding: 6px;
+        margin: 0px;
+        font-weight: 100;
+    }
+
+    & .auto-nav-bar-logo {
+        height: auto; 
+        width: auto; 
+        max-width: 80px; 
+        max-height: 80px;
+        padding: 6px;
+        margin: 0px;
+    }
+
+    & .auto-nav-bar-item {
+        margin: 0px;
+        padding: 6px;
+        color: gray;
+        font-weight: lighter;
+
+        &:hover {
+            color: lightblue;
+        }
+    }
+}
